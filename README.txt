@@ -7,6 +7,7 @@ Throw.cs
 - Developed/iterated over months, including a full rework that involved a combination of clamping user input,rounding, then scaling/clamping further when translating to physical 3D forces using rounding to ensure intentional, accessible play.
 - ThrowMochiRework() method contains most of the actual finished work/mechanic
 - Screenshot0 demonstrating design tooling/iteration available in editor: https://i.imgur.com/NCuuz2Y.png
+
 GrowGoalManager.cs
 - Each level prefab contains this manager that will spawn in the level's goal nodes/suns that the player must sequentially make the cat grow toward in order to beat the level.
 - Allows user to drag and drop goal prefab objects to use as template for that level's sun(s).
